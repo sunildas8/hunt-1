@@ -1179,10 +1179,13 @@ nav ul li:hover a{
     border: 1px solid #f1f1f1;
     border-top: 0;
     margin-top: -55px;
-    padding-top: 60px;
-    padding-bottom: 15px;
+    padding-top: 65px;
+    padding-bottom: 40px;
     transition: .5s;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #team-part .team .details h2{
@@ -1197,12 +1200,13 @@ nav ul li:hover a{
     font-size: 16px;
     font-weight: 500;
     color: #111111;
+    position: absolute;
+    top: 95px;
 }
 
 #team-part .team .details .icon{
-    margin: 18px 0;
     position: absolute;
-    left: 12px;
+    top: 135px;
     opacity: 0;
     transition: .5s;
 }
@@ -1232,7 +1236,7 @@ nav ul li:hover a{
 }
 
 #team-part .team:hover .details{
-    padding-bottom: 80px;
+    padding-bottom: 95px;
 }
 
 /* ==========================

@@ -308,11 +308,12 @@
 
     #counter-part {
         transform: skewY(0deg);
+        padding-bottom: 515px;
     }
 
     #counter-part .overlay {
-        padding-top: 15px;
-        padding-bottom: 575px;
+        background: rgba(0, 0, 0,.8);
+        padding-top: 30px;
     }
 
     #counter-part .row > * {
@@ -326,23 +327,424 @@
 
     #counter-part .overlay .item h1 {
         transform: skewY(0deg);
-        font-size: 52px;
+        font-size: 40px;
     }
 
     #counter-part .overlay .item p{
         transform: skewY(0deg);
+        padding: 0 19px;
+        font-size: 14px;
     }
  
     /* -----------counter-part-end------------ */
 
      /* -----------team-part-start------------ */
 
-    #team-part {
-        margin-top: 450px;
+    #team-part .team{
+        margin-bottom: 15px;
     }
+
+    /* -----------team-part-end------------ */
+
+    /* -----------market-part-start------------ */
+
+    #market-part {
+        transform: skewY(0deg);
+        margin-top: 50px;
+    }
+
+    /* -----------market-part-end------------ */
+
+     /* -----------footer-part-start------------ */
+
+     footer .line {
+        transform: skewY(0deg);
+    }
+
+     footer .details .item {
+        width: auto;
+    }
+
+    footer .details .icon i {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        margin: 0 7px;
+    }
+
+    #copy-part p {
+        font-size: 11px;
+        padding: 15px 0;
+    }
+
+    #copy-part p i {
+        font-size: 11px;
+    }
+
+     /* -----------footer-part-end------------ */
+
+/* =============End============== */
+}
+
+@media (min-width:576px) and (max-width:767px){
+    /* -----------nav-part------------ */
+
+    nav img{
+        width: 70%;
+    }
+
+    nav{
+        border-bottom: 0;
+    }
+     
+    nav button i{
+        color: #fff;
+    }
+
+    .ms-auto {
+        text-align: center;
+        background: #000;
+        padding: 15px;
+    }
+
+    nav ul li a:hover::after {
+        width: 0;
+    }
+
+    /* -----------nav-end------------ */
+
+    /* -----------banner-part-end------------ */
+   
+    #banner-part img{
+        width: 1500px !important;
+    }
+
+    #banner-part .overlay h3 {
+        font-size: 24px;
+        margin-bottom: 3px;
+    }
+
+    #banner-part .overlay h2 {
+        font-size: 40px;
+    }
+
+    #banner-part .overlay p {
+        width: auto;
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+
+    #banner-part .overlay a {
+        padding: 6px 15px;
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    #banner-part {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .carousel-control-prev {
+        left: 180px;
+    }
+
+    .carousel-control-next {
+        right: 180px;
+    }
+
+    .carousel-control-prev {
+        top: 400px;
+    }
+
+    .carousel-control-next {
+        top: 400px;
+    }
+
+    /* -----------banner-part-end------------ */
+
+    /* -----------about-part-start------------ */
+
+    .title h3 {
+        font-size: 30px;
+    }
+
+    .title p {
+        width: auto;
+    }
+
+    #about-part .item .shape {
+        display: none;
+    }
+
+    #about-part .item i {
+        display: none;
+    }
+
+    #about-part .item-left .shape {
+        display: none;
+    }
+
+    #about-part .item-left i {
+        display: none;
+    }
+
+    #about-part .item-right .shape {
+        display: none;
+    }
+
+    #about-part .item-right i {
+        display: none;
+    }
+
+    #about-part .item-bottom .shape {
+        display: none;
+    }
+
+    #about-part .item-bottom i {
+        display: none;
+    }
+
+    .offset-4 {
+        margin-left: 0;
+    }
+
+    #about-part .item p {
+        width: 305px;
+    }
+
+    #about-part .item-left {
+        margin-left: 0;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    #about-part .aligment {
+        display: block;
+    }
+
+    #about-part .item-left p {
+        width: 305px;
+    }
+
+    #about-part .round {
+        width: 280px;
+        height: 280px;
+    }
+
+    #about-part .round .round-inner {
+        width: 250px;
+        height: 250px;
+    }
+
+    #about-part .round .round-inner img {
+        top: 5px;
+        left: -85px;
+    }
+
+    #about-part .item-right {
+        margin-right: 0;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    #about-part .item-right p {
+        width: 305px;
+    }
+    
+    #about-part .item-bottom p {
+        width: 305px;
+    }
+
+    /* -----------about-part-end------------ */
+
+    /* -----------portfolio-part-start------------ */
+
+    #portfolio-part {
+        clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .title-p p {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    #portfolio-part .overlay {
+        padding-top: 60px;
+        padding-bottom: 10px;
+    }
+
+    /* -----------portfolio-part-end------------ */
+
+    /* -----------service-part-start------------ */
+
+    #service-part .line {
+        display: none;
+    }
+
+    #service-part .prev {
+        margin: 0;
+    }
+
+    #service-part .next {
+        margin: 0;
+    }
+
+    #service-part .service:nth-child(2n) .main {
+        flex-direction: column;
+    }
+
+    #service-part .service .main {
+        flex-direction: column;
+    }
+
+    #service-part .left {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #service-part .middle {
+        width: 100%;
+    }
+
+    #service-part .right-r {
+        width: 100%;
+    }
+
+    #service-part .right-r p {
+        text-align: center;
+        padding: 50px 54px;
+    }
+
+    #service-part .right {
+        width: 100%;
+    }
+
+    #service-part .right p {
+        text-align: center;
+    }
+
+    #service-part .service:nth-child(2n) .left {
+        justify-content: center;
+    }
+
+    #service-part .slick-center .middle .round {
+        transform: scale(1.1);
+    }
+
+    #service-part .middle .round {
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+
+    #service-part .right .shap {
+        display: none;
+    }
+
+    #service-part .right-r .shap {
+        display: none;
+    }
+
+    #service-part .prev {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    #service-part .next {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #service-part .prev {
+        position: absolute;
+        bottom: -60px;
+        left: 150px;
+        transform: rotate(-90deg);
+    }
+
+    #service-part .next {
+        position: absolute;
+        bottom: -60px;
+        right: 150px;
+        transform: rotate(-90deg);
+    }
+
+    /* -----------service-part-end------------ */
+
+    /* -----------service-part-2-start------------ */
+
+    #service-part-2 {
+        display: none;
+    }
+
+    /* -----------service-part-2-end------------ */
+
+    /* -----------pricing-part-start------------ */
+
+    #pricing-part {
+        margin-top: 100px;
+    }
+
+    #pricing-part .item {
+        margin-bottom: 20px;
+        transform: skewY(-0deg);
+    }
+    /* -----------pricing-part-end------------ */
+
+    /* -----------counter-part-start------------ */
+
+    #counter-part {
+        transform: skewY(0deg);
+        padding-bottom: 625px;
+    }
+
+    #counter-part .overlay {
+        padding-top: 35px;
+        background: rgba(0, 0, 0,.8);
+    }
+
+    #counter-part .row > * {
+        width: auto;
+    }
+
+    #counter-part .overlay .item {
+        margin: 0;
+        margin-bottom: 20px !important;
+    }
+
+    #counter-part .overlay .item h1 {
+        transform: skewY(0deg);
+        font-size: 52px;
+    }
+
+    #counter-part .overlay .item p{
+        transform: skewY(0deg);
+        padding: 0 40px;
+    }
+ 
+    /* -----------counter-part-end------------ */
+
+     /* -----------team-part-start------------ */
 
     #team-part .team{
         margin-bottom: 15px;
+    }
+
+    #team-part .team .details .icon {
+        left: 5px;
+    }
+
+    #team-part .team .details i {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #444444;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 30px;
+        margin: 0 12px;
+        transition: .4s;
     }
 
     /* -----------team-part-end------------ */
@@ -363,6 +765,15 @@
 
      footer .details .item {
         width: auto;
+        padding: 30px 140px;
+    }
+
+    footer .details .mail {
+        padding: 30px 100px;
+    }
+
+    footer .details .item::after {
+        display: none;
     }
 
     footer .details .icon i {
